@@ -1,0 +1,109 @@
+/* CSS reset cơ bản made by Long*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/img/background.png");
+  font-family: arial;
+  background-size: 100%;
+}
+h1 {
+  text-align: center;
+  font-size: 33px;
+  color: white;
+}
+.information {
+  margin-left: 30px;
+  padding-top: 20px;
+}
+label {
+  font-weight: bold;
+  color: black;
+  margin-top: 7px;
+  color: rgb(223, 220, 220);
+  font-family: calibri;
+}
+
+.input1 {
+  border: 1px solid;
+  border-radius: 8px;
+  border-color: white;
+  height: 30px;
+  width: 230px;
+  margin-top: 5px;
+  background-color: transparent;
+  color: white;
+}
+.input2 {
+  border: 1px solid;
+  border-radius: 8px;
+  height: 30px;
+  width: 230px;
+  margin-top: 5px;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  
+}
+
+.parent {
+  border: 1px solid;
+  width: 310px;
+  height: 350px;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 90px;
+  border-color: aliceblue;
+  backdrop-filter: blur(4px);
+}
+.child {
+  padding: 10px;
+}
+.chk {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 25px;
+  justify-content: space-around;
+  font-family: calibri;
+}
+.chk_child {
+  text-decoration: none;
+  margin-left: -10px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  margin-left: -15px;
+  color: white;
+  
+}
+button {
+  border-radius: 20px;
+  height: 30px;
+  width: 240px;
+  background-color: rgb(39, 247, 247);
+  margin-top: 20px;
+  box-shadow: inset 5px 5px 15px rgb(83, 81, 81);
+}
+button:hover {
+  background-color: rgb(133, 185, 178);
+}
+.btn {
+  margin-left: 25px;
+}
+.last {
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+}
+span {
+  font-weight: bold;
+}
